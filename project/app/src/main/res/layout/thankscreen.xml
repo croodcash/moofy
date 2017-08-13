@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/thanks"
+        android:layout_marginTop="65dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thank You"
+        android:layout_weight="0.11" />
+
+    <TextView
+        android:id="@+id/transfer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="silahkan transfer ke xxx, tiket akan dikirim ke email anda"
+        android:layout_weight="0.53" />
+
+    <Button
+        android:id="@+id/bayar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="payed"
+        android:text="saya sudah bayar" />
+</LinearLayout>

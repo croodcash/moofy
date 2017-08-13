@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/welcome">
+
+    <Button
+        android:id="@+id/admin"
+        style="@android:style/Widget.Button"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="375dp"
+        android:onClick="Admin"
+        android:text="Admin" />
+
+    <Button
+        android:id="@+id/customer"
+        style="@android:style/Widget.Button"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/admin"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="Customer"
+        android:text="Customer" />
+</LinearLayout>
