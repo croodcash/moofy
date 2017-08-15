@@ -6,107 +6,141 @@
     android:weightSum="1"
     android:background="@drawable/background">
 
+    <LinearLayout
+        android:layout_width="125dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="@drawable/logo">
+    </LinearLayout>
+
     <TextView
         android:id="@+id/judul"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="75dp"
-        android:layout_weight="0.12"
+        android:layout_weight="0.1"
+        android:background="@color/cardview_dark_background"
         android:text="judul film" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="153dp"
-        android:orientation="horizontal"
-        android:layout_weight="0.15">
+        android:layout_height="300dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/gmbr"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/spash" />
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/gmbr"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/spash" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.50"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/pemeran"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="pemeran: " />
+
+                    <TextView
+                        android:id="@+id/isipemaran"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="isipemeran" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/genre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="genre:" />
+
+                    <TextView
+                        android:id="@+id/isigenre"
+                        android:layout_width="134dp"
+                        android:layout_height="wrap_content"
+                        android:text="isigenre" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/negara"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="negara: " />
+
+                    <TextView
+                        android:id="@+id/isinegara"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="isinegara" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:orientation="vertical"
-            android:weightSum="1">
+            android:orientation="vertical">
 
-            <LinearLayout
+            <TextView
+                android:id="@+id/sinopsis"
                 android:layout_width="match_parent"
-                android:layout_height="27dp"
-                android:orientation="horizontal"
-                android:layout_weight="0.77">
+                android:layout_height="wrap_content"
+                android:layout_weight="0.44"
+                android:text="sinopsis: " />
 
-                <TextView
-                    android:id="@+id/pemeran"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="pemeran: " />
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
 
-                <TextView
-                    android:id="@+id/isipemaran"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="isipemeran" />
-            </LinearLayout>
+                    android:orientation="vertical" >
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="46dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/genre"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="genre:" />
-
-                <TextView
-                    android:id="@+id/isigenre"
-                    android:layout_width="134dp"
-                    android:layout_height="wrap_content"
-                    android:text="isigenre" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/negara"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="negara: " />
-
-                <TextView
-                    android:id="@+id/isinegara"
-                    android:layout_width="130dp"
-                    android:layout_height="wrap_content"
-                    android:text="isinegara" />
-            </LinearLayout>
+                    <TextView
+                        android:id="@+id/isisinopsis"
+                        android:layout_width="match_parent"
+                        android:layout_height="73dp"
+                        android:layout_weight="1"
+                        android:text="isisionopsis" />
+                </LinearLayout>
+            </ScrollView>
 
         </LinearLayout>
+
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/sinopsis"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="sinopsis: " />
-
-    <TextView
-        android:id="@+id/isisinopsis"
-        android:layout_width="match_parent"
-        android:layout_height="73dp"
-        android:text="isisionopsis"
-        android:layout_weight="0.46" />
 
     <LinearLayout
         android:layout_width="match_parent"

@@ -5,64 +5,70 @@
     android:weightSum="1"
     android:background="@drawable/background">
 
+    <LinearLayout
+        android:layout_width="125dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="@drawable/logo">
+    </LinearLayout>
+
     <TextView
         android:id="@+id/judul"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:text="judul film"
+        android:layout_margin="10dp"
         android:layout_weight="0.08"
+        android:background="@drawable/titlebuy"
         android:padding="5dp"
-        android:background="@drawable/titlebuy"/>
+        android:text="judul film" />
 
-    <EditText
-        android:id="@+id/namapembeli"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/nama"
+        android:layout_height="193dp"
         android:layout_margin="10dp"
-        android:inputType="textPersonName" />
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/jams"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.08"
-        android:text="jam" />
+        <EditText
+            android:id="@+id/namapembeli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/nama"
+            android:inputType="textPersonName" />
 
-    <Spinner
-        android:id="@+id/jam"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:layout_weight="0.06" />
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textPersonName" />
 
-    <EditText
-        android:id="@+id/email"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:layout_margin="10dp"
-        android:hint="@string/email"
-        android:inputType="textPersonName" />
+        <TextView
+            android:id="@+id/jams"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="jam" />
 
-    <TextView
-        android:id="@+id/qq"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.08"
-        android:text="Jumlah" />
+        <Spinner
+            android:id="@+id/jam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-    <Spinner
-        android:id="@+id/jumlahtiket"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:entries="@array/jmltiket"
-        android:layout_weight="0.05" />
+        <TextView
+            android:id="@+id/qq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah" />
+
+        <Spinner
+            android:id="@+id/jumlahtiket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/jmltiket" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"

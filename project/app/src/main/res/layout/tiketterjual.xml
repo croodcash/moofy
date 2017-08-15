@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="125dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="@drawable/logo">
+    </LinearLayout>
 
     <TextView
         android:id="@+id/namaBioskop"
-        android:layout_marginTop="65dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Moofy Cinema" />
+        android:text="Moofy Cinema" />n
 
     <TextView
         android:id="@+id/tiketterjual"
