@@ -13,165 +13,165 @@
         android:background="@drawable/logo">
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/judul"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.1"
-        android:background="@color/cardview_dark_background"
-        android:text="judul film" />
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:layout_margin="10dp"
-        android:orientation="vertical">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
 
-        <LinearLayout
+        <TextView
+            android:id="@+id/judul"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:orientation="horizontal">
+            android:layout_height="50dp"
+            android:background="@color/cardview_dark_background"
+            android:text="judul film" />
 
-            <ImageView
-                android:id="@+id/gmbr"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/spash" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical"
-                android:weightSum="1">
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.50"
                     android:orientation="horizontal">
 
-                    <TextView
-                        android:id="@+id/pemeran"
+                    <ImageView
+                        android:id="@+id/gmbr"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="pemeran: " />
+                        android:layout_height="300dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/spash" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:weightSum="1">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.50"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/pemeran"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="pemeran: " />
+
+                            <TextView
+                                android:id="@+id/isipemaran"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="isipemeran" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="46dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/genre"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="genre:" />
+
+                            <TextView
+                                android:id="@+id/isigenre"
+                                android:layout_width="134dp"
+                                android:layout_height="wrap_content"
+                                android:text="isigenre" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/negara"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="negara: " />
+
+                            <TextView
+                                android:id="@+id/isinegara"
+                                android:layout_width="130dp"
+                                android:layout_height="wrap_content"
+                                android:text="isinegara" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/isipemaran"
+                        android:id="@+id/sinopsis"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="isipemeran" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="46dp"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/genre"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="genre:" />
-
-                    <TextView
-                        android:id="@+id/isigenre"
-                        android:layout_width="134dp"
-                        android:layout_height="wrap_content"
-                        android:text="isigenre" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/negara"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="negara: " />
-
-                    <TextView
-                        android:id="@+id/isinegara"
-                        android:layout_width="130dp"
-                        android:layout_height="wrap_content"
-                        android:text="isinegara" />
-                </LinearLayout>
-
-            </LinearLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/sinopsis"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.44"
-                android:text="sinopsis: " />
-
-            <ScrollView
-                android:layout_width="match_parent"
-                android:layout_height="100dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical" >
+                        android:layout_weight="0.44"
+                        android:text="sinopsis: " />
 
                     <TextView
                         android:id="@+id/isisinopsis"
                         android:layout_width="match_parent"
                         android:layout_height="73dp"
-                        android:layout_weight="1"
+                        android:layout_weight="0.44"
                         android:text="isisionopsis" />
+
                 </LinearLayout>
-            </ScrollView>
 
-        </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-    </LinearLayout>
+                    <Button
+                        android:id="@+id/buy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="buy"
+                        android:text="buy" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="74dp"
-        android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
 
-        <Button
-            android:id="@+id/buy"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:onClick="buy"
-            android:text="buy" />
+                        <TextView
+                            android:id="@+id/lamatayang"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="lamanya tayang: " />
 
-        <LinearLayout
-            android:layout_width="204dp"
-            android:layout_height="303dp"
-            android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/isilamatayang"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="isilamatayang" />
+                    </LinearLayout>
+                </LinearLayout>
 
-            <TextView
-                android:id="@+id/lamatayang"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="lamanya tayang: " />
+            </LinearLayout>
+        </ScrollView>
 
-            <TextView
-                android:id="@+id/isilamatayang"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="isilamatayang" />
-        </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>

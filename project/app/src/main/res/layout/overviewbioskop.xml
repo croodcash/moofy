@@ -17,7 +17,9 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@drawable/blocktheater"
-        android:text="Moofy Cinema" />
+        android:text="Moofy Cinema"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -39,20 +41,21 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:layout_height="75dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/boxedit">
 
                     <TextView
                         android:id="@+id/studio1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="studio: " />
 
                     <TextView
                         android:id="@+id/judul1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="Judul"/>
 
@@ -60,28 +63,28 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="50dp"
                     android:layout_weight="0.03"
                     android:orientation="horizontal">
 
                     <TextView
                         android:id="@+id/penonton1"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="jml penonton" />
 
                     <TextView
                         android:id="@+id/bertahan1"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="bertahan sampai" />
 
                     <TextView
                         android:id="@+id/saran1"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="saran" />
 
@@ -99,21 +102,22 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="75dp"
                     android:layout_weight="0.03"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:background="@drawable/boxedit">
 
                     <TextView
                         android:id="@+id/studio2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="studio: " />
 
                     <TextView
                         android:id="@+id/judul2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="judul" />
 
@@ -121,28 +125,28 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="50dp"
                     android:layout_weight="0.03"
                     android:orientation="horizontal">
 
                     <TextView
                         android:id="@+id/penonton2"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="jml penonton" />
 
                     <TextView
                         android:id="@+id/bertahan2"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="bertahan sampai" />
 
                     <TextView
                         android:id="@+id/saran2"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="saran" />
 
@@ -159,20 +163,21 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:layout_height="75dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/boxedit">
 
                     <TextView
                         android:id="@+id/studio3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="studio: " />
 
                     <TextView
                         android:id="@+id/judul3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="judul" />
 
@@ -180,27 +185,27 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="50dp"
                     android:orientation="horizontal">
 
                     <TextView
                         android:id="@+id/penonton3"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="jml penonton" />
 
                     <TextView
                         android:id="@+id/bertahan3"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="bertahan sampai" />
 
                     <TextView
                         android:id="@+id/saran3"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="saran" />
 
@@ -217,20 +222,21 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:layout_height="75dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/boxedit">
 
                     <TextView
                         android:id="@+id/studio4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="studio: " />
 
                     <TextView
                         android:id="@+id/judul4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="judul" />
 
@@ -238,27 +244,27 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="50dp"
                     android:orientation="horizontal">
 
                     <TextView
                         android:id="@+id/penonton4"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="jml penonton" />
 
                     <TextView
                         android:id="@+id/bertahan4"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="bertahan sampai" />
 
                     <TextView
                         android:id="@+id/saran4"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:text="saran" />
 

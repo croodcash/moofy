@@ -1,13 +1,13 @@
 <resources>
     <string name="app_name">Moofy</string>
-    <string name="email">email</string>
+    <string name="email">Email</string>
     <string name="password">password</string>
-    <string name="judul" >judul</string>
-    <string name="genre" >genre</string>
-    <string name="pemain" >pemain</string>
-    <string name="synopsis" >synopsis</string>
+    <string name="judul" >Title</string>
+    <string name="genre" >Genre</string>
+    <string name="pemain" >Cast</string>
+    <string name="synopsis" >Synopsis</string>
     <string name="date">dd/mm/yyyy</string>
-    <string name="nama">nama</string>
+    <string name="nama">Name</string>
     <string-array name="negara">
         <item>Holywood</item>
         <item>Eropa</item>

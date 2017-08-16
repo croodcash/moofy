@@ -19,7 +19,9 @@
         android:layout_marginRight="10dp"
         android:background="@color/cardview_dark_background"
         android:padding="5dp"
-        android:text="Moofy Cinema" />
+        android:text="Moofy Cinema"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -83,7 +85,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
                     android:orientation="horizontal"
-                    android:>
+                    android:background="@color/cardview_dark_background">
 
                     <TextView
                         android:id="@+id/jadwal1"
@@ -108,14 +110,14 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:layout_margin="10dp"
-                android:background="@drawable/boxedit"
                 android:orientation="vertical"
                 android:padding="5dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:background="@drawable/boxedit">
 
                     <LinearLayout
                         android:layout_width="200dp"
@@ -152,7 +154,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:background="@color/cardview_dark_background">
 
                     <TextView
                         android:id="@+id/jadwal2"
@@ -178,14 +181,14 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:layout_margin="10dp"
-                android:background="@drawable/boxedit"
                 android:orientation="vertical"
                 android:padding="5dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:background="@drawable/boxedit">
 
                     <LinearLayout
                         android:layout_width="200dp"
@@ -222,7 +225,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:background="@color/cardview_dark_background">
 
                     <TextView
                         android:id="@+id/jadwal3"
@@ -248,14 +252,14 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:layout_margin="10dp"
-                android:background="@drawable/boxedit"
                 android:orientation="vertical"
                 android:padding="5dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:background="@drawable/boxedit">
 
                     <LinearLayout
                         android:layout_width="200dp"
@@ -292,7 +296,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:background="@color/cardview_dark_background">
 
                     <TextView
                         android:id="@+id/jadwal4"

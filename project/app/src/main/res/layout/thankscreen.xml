@@ -12,24 +12,30 @@
         android:background="@drawable/logo">
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/thanks"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Thank You"
-        android:layout_weight="0.11" />
+        android:layout_margin="10dp"
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/transfer"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="silahkan transfer ke xxx, tiket akan dikirim ke email anda"
-        android:layout_weight="0.53" />
+        <TextView
+            android:id="@+id/thanks"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="Thank You" />
 
-    <Button
-        android:id="@+id/bayar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="payed"
-        android:text="saya sudah bayar" />
+        <TextView
+            android:id="@+id/transfer"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="silahkan transfer ke xxx, tiket akan dikirim ke email anda" />
+
+        <Button
+            android:id="@+id/bayar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="payed"
+            android:text="saya sudah bayar" />
+    </LinearLayout>
+
 </LinearLayout>
